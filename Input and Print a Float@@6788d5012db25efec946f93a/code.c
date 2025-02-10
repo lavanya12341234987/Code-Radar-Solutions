@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n;
-    printf("Enter the number :");
-    scanf("%d",&n);
-    printf("%d",n);
+    float n;
+    scanf("%f",&n);
+    printf("You entered: %.2f",n);
     return 0;
 }
